@@ -1,0 +1,28 @@
+{
+  "name": "passwordless-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merlovelace/passwordless-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merlovelace/passwordless-login/issues"
+  },
+  "homepage": "https://github.com/merlovelace/passwordless-login#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "sendgrid": "^5.2.3"
+  }
+}
