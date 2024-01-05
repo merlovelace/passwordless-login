@@ -1,5 +1,5 @@
 const publicApis = [
-    '/authenticate_user'
+    '/login'
 ]
 const url = require('url')
 
