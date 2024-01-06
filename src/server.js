@@ -10,7 +10,7 @@ const {json} = require('body-parser')
 express.use(json({limit: '50kb'}))
 
 const security = require('./security')
-express.post('/authenticate_user', security,  (req,res) => {
+express.post('/magic', security,  (req,res) => {
     res.send({response: 'Hi'})
 })
 
